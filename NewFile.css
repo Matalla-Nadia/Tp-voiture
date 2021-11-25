@@ -40,10 +40,12 @@ body{
  
 /*la nav est l'intégralité de la barre menu*/
 nav {
-	min-width:97%;
+	
+	min-width:100%;
 	margin-left: 3px;
 	text-align: center;
 	text-decoration-color: white;
+	
   }
 /*liens à l'intérieur de la nav*/
 a{
@@ -85,11 +87,8 @@ flex-direction: column;
 }
 
 footer{
-margin-top: 5em;
-height: em;
 height: 14em;
 background: #e9dada;
-padding: 3rem 0;
 }
 
  
@@ -130,11 +129,26 @@ padding: 3rem 0;
 
 /*----------- bloc item*/
 
-.section{
-	padding: 3rem 2rem;
-
+section{
+	padding: 0rem 1rem;
     padding-top: 6%;
+    border:solid 2px;
 }
+.carte{
+	display:inline-grid;
+    margin: 39px 0 62px 68px;
+}
+
+/*n page acceuil------------------------------------------------------*/
+.carou{
+	height: 80%;
+    width: 47em;
+    margin: 0 0 0 23rem;
+}
+.img{
+	height:100%;
+}
+	
 
 /* Methode Responsive*/
  

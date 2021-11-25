@@ -36,8 +36,8 @@
 	 <div id="bloc_ingredient">
 	  <h5>DESCRIPTION</h5>
 	   <div class="form-floating">
-		<textarea class="form-control" placeholder="${actuel.description}"id="floatingTextarea2" style="height: 140px; color:black;"></textarea>
 		<label for="floatingTextarea2">${actuel.description}</label>
+		<label for="floatingTextarea2">${actuel.prix}€</label>
 	   </div>
 	 </div>
 	</div>
