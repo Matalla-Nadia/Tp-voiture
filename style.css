@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: sans-serif;
+	margin: var(--header-height) 0 0 0;
+	font-family: var (--body-font);
+	font-size: var (--normal-font-size);
+	font-weight: var (--font-medium);
+	background-color: white;
+	color: var (--text-color);
+	line-height:2.6;
+	margin-top: 0;
+	width:100%;
+}
+
+ nav a{
+  color:#2f285e;
+ }
+ 
+ .menu a:hover{
+ 	background: #CECECE;
+ }
+
+#logo {
+	float: left;
+	padding-top: 1px;
+    }
+
+nav {
+	width:100%;
+	height:70px;
+	background:#f1e8e8;
+	position: fixed;
+	transition:all 0.3s ease-out;
+	z-index: 1;
+	text-align: center;
+}
+  .anim-nav{
+   background:black;
+   color:blue;
+   border-bottom: 1px solid white;
+  }
+
+span {
+	background: pink;
+}
+
+a:hover{
+	color: black;
+	transition: right 2s, transform 2s;
+}
+
+#contener{
+	min-height: 30%;
+	position: relative;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+flex-direction: column;
+}
+
+section{
+	padding: 0rem 1rem;
+    padding-top: 6%;
+    border:solid 2px;
+}
+.carte{
+	display:inline-grid;
+    margin: 39px 0 62px 68px;
+    -webkit-box-shadow: 6px 9px 13px 5px rgba(0,0,0,0.8); 
+    box-shadow: 6px 9px 13px 5px rgba(0,0,0,0.8);
+}
+
+/*n page acceuil------------------------------------------------------*/
+.carou{
+	height: 19%;
+    width: 14em;
+    margin: 0 0 0 23rem;
+    float: left;
+    margin-left: 63vh;
+}
+.carou2{
+    width: 14em;
+    float: left;
+}
+.carou3{
+	height: 19%;
+    width: 14em;
+   
+}
+.slidee{
+	display: inline;
+    position:absolute; 
+    bottom:0;
+}
+.img{
+	height:100%;
+}
+
+/* Methode Responsive--------------------------------------------------------------------------------------------------------*/
+ 
+@media screen and (min-device-width:1px ) and (max-device-width:400px){
+	body{
+		background-color: pink ;
+	}
+
+	  }
+
+@media screen and (min-device-width:300px) and (max-device-width:1000px){  
+ 
+ body{
+
+ 	background-color: red;;
+ }
+   }
+
+@media screen and (min-device-width:1000px) and (max-device-width:2000px){
+
+	body {
+
+
+		background-color:grey;
+	}
+   }
