@@ -19,7 +19,9 @@
 }
 #head p{
 	font-size:20px;
+	color: antiquewhite;
 }
+
  .button{
    font-size:18px;
    text-decoration:none;
@@ -31,7 +33,8 @@
  }
  
 #head .button:hover{
-	background:grey;
-	color:red;
-	
+	background: white;
+    color: #58443d;
 }
+	
+
