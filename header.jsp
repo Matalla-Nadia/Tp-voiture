@@ -13,11 +13,23 @@ pageEncoding="UTF-8"%>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-           <nav>	
-					    <a href="<%= request.getContextPath()+"/accueil.jsp" %> "><i class='bx bxs-car-garage logo'></i></a>
-						<a class="navbar-brand "  href="<%= request.getContextPath()+"/liste" %>">Nos voitures</a>
-						<a class="navbar-brand" href="<%= request.getContextPath()+"/centre.jsp" %> ">Nos point de ventes</a>
-				       	<a class="navbar-brand" href="<%= request.getContextPath()+"/contact.jsp" %> ">Contact</a>
-			</nav>
+ <header>
+        <nav class="main-head">	
+		    <h1 id="logo"><a class="navbar-brand log" href="<%= request.getContextPath()+"/accueil.jsp" %>">CarsAuto</a></h1>
+		    <ul>
+		       <div class="dropdown">
+               <a class=" dropdown-toggle" href="#"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Type de véhicules </a>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    <li ><a class="dropdown-item" href="<%= request.getContextPath()+"/TypeV?id=1" %>">Citadine</a></li>
+				    <li><a class="dropdown-item" href="#">Berline</a></li>
+				    <li><a class="dropdown-item" href="#">SUV</a></li>
+				     <li><a class="dropdown-item" href="#">4*4</a></li>
+				  </ul>
+				</div>
+			   <li><a class="navbar-brand" href="<%= request.getContextPath()+"/centre.jsp" %> ">Nos point de ventes</a></li>
+			   <li><a class="navbar-brand" href="<%= request.getContextPath()+"/contact.jsp" %> ">Contact</a></li>
+		   </ul> 	
+	   </nav>
+ </header>
  
  <script src="js.js"></script>
