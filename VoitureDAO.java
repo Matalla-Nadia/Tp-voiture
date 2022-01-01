@@ -20,14 +20,14 @@ public class VoitureDAO {
 	 public boolean create(Voitures object) {
 			boolean response = false;
 			try {
-				PreparedStatement request = connect.prepareStatement("INSERT INTO voitures (nom, description, image, prix) "
-						+ "VALUES (?,?,?,?)");
+				PreparedStatement request = connect.prepareStatement("INSERT INTO voitures (nom, description, image, prix, type) "
+						+ "VALUES (?,?,?,?,?)");
 			 
 				request.setString(1, object.getNom());
 				request.setString(2, object.getDescription());
 				request.setString(3, object.getImage());
 				request.setFloat(4, object.getPrix());
-				
+				request.setObject(5, object.getType());
 				request.executeUpdate();
 				
 				response = true;

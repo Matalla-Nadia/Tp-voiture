@@ -29,7 +29,7 @@ public class TypeV extends HttpServlet {
     	VoitureDAO vDao = new VoitureDAO();
         List<Voitures> mDao = vDao.readByType(id);
         
-        request.setAttribute("listeRecette", mDao);
+        request.setAttribute("listeVoitures", mDao);
 		request.getRequestDispatcher("liste.jsp").forward(request, response);
 		  
 	}

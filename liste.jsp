@@ -6,7 +6,7 @@
 <body>
 <div></div>
 <section>
- <c:forEach items="${listeVoitures}" var="voitures" >	
+ <c:forEach items="${listeVoitures}" var="voitures">	
 <div class="card carte" style="width: 18rem;">
   <img src= "${voitures.image}" class="card-img-top" alt="...">
   <div class="card-body">
