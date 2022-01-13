@@ -1,6 +1,6 @@
 <%@ include file="/header.jsp"%>
 <link rel="stylesheet" href="<%=request.getContextPath() + "/style.css"%>">
-	<h1>Formulaire pour nous contacter</h1>
+	<h1>Contact</h1>
 
 <body>
 	
@@ -10,7 +10,20 @@
 	width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	
 	
-	
+	 <div class="contact__container bd-grid" >
+	     <form action="https://formsubmit.co/el/vajibi"  method="POST" class="contact__form">
+          <div class="contact__inputs">
+          <input type="hidden" name="_subject" value="Nouvelle email!">
+          <input type="email" name="email" class="contact__input"  placeholder="Entrez votre mail" required>
+          </div>
+          
+           <input type="hidden" name="_next" value="https://matalla-nadia.github.io/Cv-en-ligne/">
+          <textarea name="name" id="" cols="0" rows="10" placeholder="Message" class="contact__input" required></textarea>
+          
+            
+           <button type="submit" class="button contact__button">Envoyer</button>
+        </form>  
+	</div>
 	<div class="footer__social">
 	            <a href="https://www.facebook.com/marketplace/category/voitures/" class="footer__link"><i class='bx bxl-facebook-circle' ></i></a>
 	            <a href="https://www.youtube.com/watch?v=Qa0kSG6aoJ4" class="footer__link"><i class='bx bxl-youtube' ></i></a>
