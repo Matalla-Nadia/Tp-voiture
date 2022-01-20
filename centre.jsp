@@ -15,7 +15,7 @@
 		</button>
 	     <ul class="dropdown-menu">
 	       <!--  <li ><a class="dropdown-item" href="<%= request.getContextPath()+"/Ville" %>">Paris</a></li>-->
-	        <li> <a href="<%= request.getContextPath()+"/Ville?id=" %>${ville.id}"class="btn btn-secondary consul">Paris</a></li>
+	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Paris</a></li>
 	        <li>Le Havre</li>
 	        <li>Rennes</li> 
 	        <li>Anger</li> 
