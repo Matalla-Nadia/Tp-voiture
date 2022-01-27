@@ -10,7 +10,7 @@
 	width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	
 	
-	 <div class="contact__container bd-grid" >
+	 <div class="contact__container bd-grid form" >
 	     <form action="https://formsubmit.co/el/vajibi"  method="POST" class="contact__form">
           <div class="contact__inputs">
           <input type="hidden" name="_subject" value="Nouvelle email!">

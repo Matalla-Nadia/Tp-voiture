@@ -17,6 +17,9 @@
 	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Poitier</a></li>
 	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Limoge</a></li>
 	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Grenoble</a></li> 
+	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Tours</a></li>
+	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Montpelier</a></li>
+	        <li> <a href="<%= request.getContextPath()+"/Villes?id=" %>${ville.id}"class="btn btn-secondary consul">Toulouse</a></li> 
 	  </ul>
 </div>  
 </body>
