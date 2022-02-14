@@ -3,7 +3,6 @@
 
 
 <body>
-
  <div class="blocdetail">
 	<div class="card mb-3 cartee" style="max-width: 540px;">
   <div class="row g-0">
@@ -19,9 +18,6 @@
     </div>
   </div>
 </div>
-
-	
-	
 	
    <div id="carouselExampleControls" class="carousel slide slidee" data-bs-ride="carousel">
   <div class="carousel-inner carou">

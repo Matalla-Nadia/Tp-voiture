@@ -3,12 +3,15 @@
 	<h1>Contact</h1>
 
 <body>
+
+
+
 	
 	<div id="contact">
 	
 	<iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5247.856507115519!2d2.291012025909248!3d48.87864426194974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f8d88066f2f%3A0xa8b1ad0c1e67dcc5!2sGUERSANT%20AUTOMOBILES!5e0!3m2!1sfr!2sfr!4v1638274824577!5m2!1sfr!2sfr" 
-	width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-	
+	width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+	  </iframe>
 	
 	 <div class="contact__container bd-grid form" >
 	     <form action="https://formsubmit.co/el/vajibi"  method="POST" class="contact__form">
